@@ -21,4 +21,4 @@ const thirdImage = document.getElementById("result3").innerHTML =  '<img class="
 }
 
 const generaterBtn = document.getElementById("generate-image");
-generaterBtn.addEventListner('click', getRandomImage);
+generaterBtn.addEventListener('click', getRandomImage);
